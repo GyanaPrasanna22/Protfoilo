@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+  
+    color: #fff;
+}
+
+#header{
+  
+    width:100%;
+    height: 100%;
+}
+.topnav {
+    
+    overflow: hidden;
+   
+    
+}
+
+  
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 22px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color:red;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  
+  color:white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  
+}
+#text1{
+  margin-top:220px;
+  
+  font-size: 30px;
+
+}
+#text2{
+  margin-top: 8px;
+ 
+  font-size: 35px;
+}
+.fa {
+    
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 40px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin{
+  margin-left: 20px;
+  background-color: #0A66C2;
+  color: white;
+}
+.fa-github{
+  margin-left: 20px;
+  background-color: #070707;
+  color: white;
+}
+.fa-envelope{
+  margin-left: 20px;
+  background-color:#f0f3f8;
+  color:red;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#B2A36A;
+}
+
+img {
+  width: 350px;
+  border-radius: 50%;
+  margin-top: 240px;
+  margin-left: 100px;
+  margin-right: 70px;
+  margin-bottom: 150px;
+  float: left;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 4%;
+  float: left;
+  margin-right: 100px;
+}
+.My-Services{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-block: 50px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.Services{
+  display: flex;
+  gap: 10px;
+  margin: 0px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  font-size: 50px;
+  font-weight: bold;
+  color: blue;
+  margin-block: 20px;
+}
+
+.Services div p{
+  margin: 20px;
+  font-size: 20px;
+}
+
+.s1{
+  padding-block: 100px;
+  border: 5px double blue ;
+  border-radius: 20px;
+}
+
+/* My-Skills */
+
+.Skills{
+  display: flex;
+  margin: -50px 100px;
+}
+
+.Skills-left{
+  margin-top: 60px;
+  margin-bottom: 10px;
+  padding: 30px 70px;
+  width: 50%;
+}
+
+.Skills-left p{
+  font-size: 20px;
+}
+
+.Skills-right{
+  width: 50%;
+  color: black;
+  list-style-type: none;
+  padding: 50px;
+}
+
+.Skills-left h2{
+  margin: 20px;
+}
+
+.Skills-left p{
+  margin: 20px;
+}
+
+.Skills-right li{
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.h3{
+  margin: 5px;
+  border: 1px solid red;
+}
+
+.bar{
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bar:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.HTML{
+  width: 70%;
+  animation: HTML 3s;
+}
+
+.CSS{
+  width: 70%;
+  animation: CSS 3s;
+}
+
+.JavaScript{
+  width: 40%;
+  animation: JavaScript 3s;
+}
+.Java{
+  width: 80%;
+  animation: Java 3s;
+}
+.Python{
+  width: 90%;
+  animation: Python 3s;
+}
+
+@keyframes HTML{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 70%;
+  }
+}
+
+@keyframes CSS{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 70%;
+  }
+}
+
+@keyframes JavaScript{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 40%;
+  }
+}
+@keyframes Java{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 80%;
+  }
+}
+
+
+@keyframes Python{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+
+.s2 img {
+  height: 500px;
+  padding: 50px 10px 0px 10px;
+}
+
+.s2{
+  padding-block: 50px;
+  border: 5px double blue ;
+  border-radius: 20px;
+}
+.My-Services{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-block: 50px;
+  margin-top: 100px;
+  
+}
+
+.Services{
+  display: flex;
+  gap: 10px;
+  margin: 0px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.logo{
+  font-size: 50px;
+  font-weight: bold;
+  color: blue;
+  margin-block: 20px;
+}
+
+.Services div p{
+  margin: 20px;
+  font-size: 20px;
+}
+
+.s1{
+  padding-block: 100px;
+  border: 5px double #264f9a ;
+  border-radius: 20px;
+  background-color: #264f9a;
+}
+/* My-Contact */
+
+.contact{
+  display: flex;
+  gap: 10px;
+  margin: 0px 10px;
+  
+}
+
+.head{
+font-weight: bold;
+}
+
+.row i{
+color: rgb(190, 0, 0);
+font-size: 30px;
+margin: 0px 10px;
+}
+
+.row{
+display: flex;
+height: 50px;
+margin:10px;
+}
+
+.fields {
+display: flex;
+}
+
+.field input{
+height: 50px;
+width: 250px;
+margin: 10px;
+padding: 10px;
+border-radius: 5px;
+font-size: 18px;
+}
+
+#subject{
+width: 520px;
+}
+
+#message{
+width: 520px;
+margin: 10px;
+border-radius: 5px;
+height: 100px;
+padding: 10px;
+font-size: 18px;
+}
+
+
+
